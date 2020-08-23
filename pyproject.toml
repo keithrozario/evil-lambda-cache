@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "evil_lambda_cache"
+version = "0.3"
+description = "Evil version of Lambda Cache -- this isn't what you're looking for..."
+repository = "https://github.com/keithrozario/evil-lambda-cache"
+homepage = "https://github.com/keithrozario/evil-lambda-cache"
+authors = ["keithrozario <keith@keithrozario.com>"]
+classifiers=[
+    "Development Status :: 4 - Beta",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Natural Language :: English",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.6.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^4.6"
+black = "^19.10b0"
+boto3 = "^1.12.31"
+PyYaml = "^5.3.1"
+pip = "^20.0.2"
+pytest-cov = "^2.8.1"
+coverage = "^5.0.4"
+coveralls = "^1.11.1"
+toml = "^0.10.0"
+mkdocs = "^1.1"
+pytest-xdist = "^1.31.0"
+pre-commit = "^2.2.0"
+
+[build-system]
+requires = ["poetry>=0.12"]
+build-backend = "poetry.masonry.api"
+
